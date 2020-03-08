@@ -2,13 +2,13 @@ import React from 'react';
 
 export interface IProps {
     color: string
-    onClick? : (color: string) => void
+    background: string
 }
 
 export default (props: IProps) => {
-    const { color, onClick } = props;
+    const { color, background } = props;
 
-    return <button style={{color}} onClick={() => onClick && onClick(color)}>
-        Color Buttton
+    return <button style={{color, backgroundColor: background}}>
+       Color Button
     </button>
 }

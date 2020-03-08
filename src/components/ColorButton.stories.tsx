@@ -3,5 +3,5 @@ import { storiesOf } from "@storybook/react";
 import ColorButton from "./ColorButton";
 
 storiesOf("ColorButton", module)
-.add("red", () => <ColorButton color="red"/>)
-.add("blue", () => <ColorButton color="blue"/>)
+.add("Blue Button", () => <ColorButton color="#FFFFFF" background="#3F51B5"/>)
+.add("Pink Button", () => <ColorButton color="#FFFFFF" background="#e91e63" />)
