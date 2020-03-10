@@ -8,7 +8,7 @@ export interface IProps {
 export default (props: IProps) => {
     const { color, background } = props;
 
-    return <button style={{color, backgroundColor: background}}>
+    return <button style={{color,background}}>
        Color Button
     </button>
 }
